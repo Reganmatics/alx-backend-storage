@@ -7,3 +7,16 @@
 - The first line of all your files should be a comment: ```// my comment```
 - A ```README.md``` file, at the root of the folder of the project, is mandatory
 - The length of your files will be tested using ```wc```
+
+
+| Systemd command | Sysvinit command |
+| -------------- | ---------------- |
+| systemctl start service_name | service service_name start |
+| -------------- | ---------------- |
+| systemctl stop service_name | service service_name stop |
+| -------------- | ---------------- |
+| systemctl restart service_name | service service_name restart |
+
+systemctl status service_name	service service_name status
+systemctl enable service_name	chkconfig service_name on
+systemctl disable service_name	chkconfig service_name off
