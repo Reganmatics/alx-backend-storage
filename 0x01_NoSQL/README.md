@@ -8,6 +8,7 @@
 - A ```README.md``` file, at the root of the folder of the project, is mandatory
 - The length of your files will be tested using ```wc```
 
+### When working with docker container, the command ```sudo systemctl start mongod``` throws the error ```System has not been booted with systemd as init system (PID 1). Can't operate.```
 
 | Systemd command | Sysvinit command |
 | -------------- | ---------------- |
