@@ -1,2 +1,5 @@
 // Task 6. Update
-db.school.updateMany({"name":"Holberton school"}, {$set: {"address":"972 Mission street"}})
+
+use my_db
+
+db.school.update({"name":"Holberton school"}, {$set: {"address":"972 Mission street"}})
