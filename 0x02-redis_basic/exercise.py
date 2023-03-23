@@ -5,6 +5,7 @@ Task 0. Writing strings to Redis
 import redis
 import uuid
 import functools
+import requests
 from redis.typing import Union
 
 
